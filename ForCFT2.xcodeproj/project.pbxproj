@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		602F0ED43B25A63B5CE4C876 /* Pods_ForCFT2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F26BD60458CE8DE54002EF3 /* Pods_ForCFT2.framework */; };
+		DF1FAC432539BAFA0083FF0F /* EditCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1FAC422539BAFA0083FF0F /* EditCarViewController.swift */; };
 		DF3B4F0A251E2525001254E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3B4F09251E2525001254E2 /* AppDelegate.swift */; };
 		DF3B4F0C251E2525001254E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3B4F0B251E2525001254E2 /* SceneDelegate.swift */; };
-		DF3B4F0E251E2525001254E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3B4F0D251E2525001254E2 /* ViewController.swift */; };
+		DF3B4F0E251E2525001254E2 /* CarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3B4F0D251E2525001254E2 /* CarTableViewController.swift */; };
 		DF3B4F11251E2525001254E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF3B4F0F251E2525001254E2 /* Main.storyboard */; };
 		DF3B4F13251E252A001254E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF3B4F12251E252A001254E2 /* Assets.xcassets */; };
 		DF3B4F16251E252A001254E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF3B4F14251E252A001254E2 /* LaunchScreen.storyboard */; };
+		DF3B4F1E251EFA2E001254E2 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3B4F1D251EFA2E001254E2 /* Car.swift */; };
+		DF3B4F24251F50DF001254E2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3B4F23251F50DF001254E2 /* DetailViewController.swift */; };
+		DF3B4F26251FBBB8001254E2 /* CarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3B4F25251FBBB8001254E2 /* CarTableViewCell.swift */; };
+		DF4075452521CCD0008E79FE /* NewCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4075442521CCD0008E79FE /* NewCarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F26BD60458CE8DE54002EF3 /* Pods_ForCFT2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForCFT2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FEE41A946D64F8ACEB81F5A /* Pods-ForCFT2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForCFT2.release.xcconfig"; path = "Target Support Files/Pods-ForCFT2/Pods-ForCFT2.release.xcconfig"; sourceTree = "<group>"; };
+		DF1FAC422539BAFA0083FF0F /* EditCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditCarViewController.swift; sourceTree = "<group>"; };
 		DF3B4F06251E2525001254E2 /* ForCFT2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForCFT2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF3B4F09251E2525001254E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF3B4F0B251E2525001254E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DF3B4F0D251E2525001254E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF3B4F0D251E2525001254E2 /* CarTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTableViewController.swift; sourceTree = "<group>"; };
 		DF3B4F10251E2525001254E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DF3B4F12251E252A001254E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF3B4F15251E252A001254E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF3B4F17251E252A001254E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF3B4F1D251EFA2E001254E2 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		DF3B4F23251F50DF001254E2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		DF3B4F25251FBBB8001254E2 /* CarTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarTableViewCell.swift; sourceTree = "<group>"; };
+		DF4075442521CCD0008E79FE /* NewCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCarViewController.swift; sourceTree = "<group>"; };
+		E0405676EADBE9E9440B96D1 /* Pods-ForCFT2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForCFT2.debug.xcconfig"; path = "Target Support Files/Pods-ForCFT2/Pods-ForCFT2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				602F0ED43B25A63B5CE4C876 /* Pods_ForCFT2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B4EC772768E6160B5242788 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0405676EADBE9E9440B96D1 /* Pods-ForCFT2.debug.xcconfig */,
+				5FEE41A946D64F8ACEB81F5A /* Pods-ForCFT2.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A20D6F588A404538B6A44641 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F26BD60458CE8DE54002EF3 /* Pods_ForCFT2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DF3B4EFD251E2525001254E2 = {
 			isa = PBXGroup;
 			children = (
 				DF3B4F08251E2525001254E2 /* ForCFT2 */,
 				DF3B4F07251E2525001254E2 /* Products */,
+				2B4EC772768E6160B5242788 /* Pods */,
+				A20D6F588A404538B6A44641 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,7 +93,12 @@
 			children = (
 				DF3B4F09251E2525001254E2 /* AppDelegate.swift */,
 				DF3B4F0B251E2525001254E2 /* SceneDelegate.swift */,
-				DF3B4F0D251E2525001254E2 /* ViewController.swift */,
+				DF3B4F0D251E2525001254E2 /* CarTableViewController.swift */,
+				DF4075442521CCD0008E79FE /* NewCarViewController.swift */,
+				DF3B4F25251FBBB8001254E2 /* CarTableViewCell.swift */,
+				DF3B4F23251F50DF001254E2 /* DetailViewController.swift */,
+				DF1FAC422539BAFA0083FF0F /* EditCarViewController.swift */,
+				DF3B4F1D251EFA2E001254E2 /* Car.swift */,
 				DF3B4F0F251E2525001254E2 /* Main.storyboard */,
 				DF3B4F12251E252A001254E2 /* Assets.xcassets */,
 				DF3B4F14251E252A001254E2 /* LaunchScreen.storyboard */,
@@ -74,9 +114,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DF3B4F1A251E252A001254E2 /* Build configuration list for PBXNativeTarget "ForCFT2" */;
 			buildPhases = (
+				AD79D228E950D4A7B496B769 /* [CP] Check Pods Manifest.lock */,
 				DF3B4F02251E2525001254E2 /* Sources */,
 				DF3B4F03251E2525001254E2 /* Frameworks */,
 				DF3B4F04251E2525001254E2 /* Resources */,
+				C34729563F087A0A033A4AD0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +175,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AD79D228E950D4A7B496B769 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ForCFT2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C34729563F087A0A033A4AD0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ForCFT2/Pods-ForCFT2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ForCFT2/Pods-ForCFT2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ForCFT2/Pods-ForCFT2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DF3B4F02251E2525001254E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF3B4F0E251E2525001254E2 /* ViewController.swift in Sources */,
+				DF3B4F0E251E2525001254E2 /* CarTableViewController.swift in Sources */,
+				DF1FAC432539BAFA0083FF0F /* EditCarViewController.swift in Sources */,
 				DF3B4F0A251E2525001254E2 /* AppDelegate.swift in Sources */,
+				DF3B4F26251FBBB8001254E2 /* CarTableViewCell.swift in Sources */,
+				DF3B4F24251F50DF001254E2 /* DetailViewController.swift in Sources */,
+				DF4075452521CCD0008E79FE /* NewCarViewController.swift in Sources */,
+				DF3B4F1E251EFA2E001254E2 /* Car.swift in Sources */,
 				DF3B4F0C251E2525001254E2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +371,7 @@
 		};
 		DF3B4F1B251E252A001254E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0405676EADBE9E9440B96D1 /* Pods-ForCFT2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +390,7 @@
 		};
 		DF3B4F1C251E252A001254E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FEE41A946D64F8ACEB81F5A /* Pods-ForCFT2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
